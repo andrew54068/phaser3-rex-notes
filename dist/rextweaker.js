@@ -7955,7 +7955,7 @@
     gameObject.on('modal.requestClose', modalBehavior.requestClose, modalBehavior);
     /*
     It is not necessary to turn off gameObject's 'modal.requestClose' event because that :
-      - If `config.destroy` is `undefined` (or `true), gameObject and modalBehavior will be destroyed
+     - If `config.destroy` is `undefined` (or `true), gameObject and modalBehavior will be destroyed
     - If `config.destroy` is `false` (for reusing dialog), keeping gameObject and modalBehavior 
     */
 
@@ -34175,13 +34175,13 @@
 
       /* 
       Necessary properties of child object :
-        - child.t (RW), 
+       - child.t (RW), 
       - child.childOY (RW)        
       - child.topChildOY (R)
       - child.bottomChildOY (R)
       - child.childVisibleHeight (R)
       - child.childHeight (R)
-        - child.s (RW), 
+       - child.s (RW), 
       - child.childOX (RW)
       - child.leftChildOX (R)
       - child.rightChildOX (R)

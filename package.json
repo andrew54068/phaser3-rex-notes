@@ -1,5 +1,5 @@
 {
-    "name": "phaser3-rex-plugins",
+    "name": "phaser3-daw-plugins",
     "version": "1.80.1",
     "description": "Plugins of phaser3",
     "author": "Rex",
@@ -15,16 +15,16 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/rexrainbow/phaser3-rex-notes"
+        "url": "https://github.com/andrew54068/phaser3-rex-notes"
     },
     "keywords": [
         "phaser3"
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/rexrainbow/phaser3-rex-notes/issues"
+        "url": "https://github.com/andrew54068/phaser3-rex-notes/issues"
     },
-    "homepage": "https://rexrainbow.github.io/phaser3-rex-notes/docs/site/index.html",
+    "homepage": "https://github.com/andrew54068/phaser3-rex-notes/docs/site/index.html",
     "devDependencies": {
         "@babel/core": "^7.23.9",
         "@babel/plugin-transform-runtime": "^7.23.9",

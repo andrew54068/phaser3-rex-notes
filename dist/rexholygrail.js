@@ -7934,7 +7934,7 @@
     gameObject.on('modal.requestClose', modalBehavior.requestClose, modalBehavior);
     /*
     It is not necessary to turn off gameObject's 'modal.requestClose' event because that :
-      - If `config.destroy` is `undefined` (or `true), gameObject and modalBehavior will be destroyed
+     - If `config.destroy` is `undefined` (or `true), gameObject and modalBehavior will be destroyed
     - If `config.destroy` is `false` (for reusing dialog), keeping gameObject and modalBehavior 
     */
 
@@ -11985,7 +11985,7 @@
 
     /*
     CR
-      FF
+     FF
     */
     var bodySizer1 = CreatExpandContainer(scene, 1);
     bodySizer0.add(bodySizer1, GetAddContainerConfig());
@@ -12042,7 +12042,7 @@
 
     /*
     LC
-      FF
+     FF
     */
     var bodySizer1 = CreatExpandContainer(scene, 1);
     bodySizer0.add(bodySizer1, GetAddContainerConfig());
@@ -12111,7 +12111,7 @@
 
     /*
     C
-      F
+     F
     */
     var bodySizer1 = CreatExpandContainer(scene, 1);
     bodySizer0.add(bodySizer1, GetAddContainerConfig());
