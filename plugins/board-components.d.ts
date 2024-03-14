@@ -2,6 +2,7 @@ import Board from './board/board/Board';
 import HexagonGrid from './board/grid/hexagon/Hexagon';
 import QuadGrid from './board/grid/quad/Quad';
 import Shape from './board/shape/Shape';
+import Image from './board/shape/Image';
 import Match from './board/match/Match';
 import MoveTo from './board/moveto/MoveTo';
 import PathFinder from './board/pathfinder/PathFinder';
@@ -17,6 +18,7 @@ export {
     HexagonGrid,
     QuadGrid,
     Shape,
+    Image,
     Match,
     MoveTo,
     PathFinder,
