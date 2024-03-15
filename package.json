@@ -1,8 +1,8 @@
 {
     "name": "phaser3-daw-plugins",
-    "version": "1.80.3",
+    "version": "1.80.4",
     "description": "Plugins of phaser3",
-    "author": "Rex",
+    "author": "Dawson",
     "files": [
         "plugins",
         "templates",
