@@ -3,7 +3,7 @@ import IsMiniBoardObject from '../miniboard/IsMiniBoardObject.js';
 
 const Base = Phaser.GameObjects.Image;
 class Image extends Base {
-    constructor(board, tileX, tileY, tileZ, fillColor, fillAlpha, addToBoard) {
+    constructor(board, source, width, height, tileX, tileY, tileZ, frame, addToBoard) {
         if (addToBoard === undefined) {
             addToBoard = true;
         }
@@ -27,7 +27,9 @@ class Image extends Base {
         }
         var points = board.getGridPoints(undefined, undefined, true);
         ShiftToO(points);
-        super(scene, worldX, worldY, points, fillColor, fillAlpha);
+        const manager = new TextureManager(scene);
+        const texture = new Phaser.Textures.Texture(manager, 'imageChess', source, width, height);
+        super(scene, worldX, worldY, texture, frame);
 
         if (addToBoard) {
             if (isMiniBoard) { // Chess-Container
