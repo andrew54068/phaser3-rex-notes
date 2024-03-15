@@ -27,7 +27,7 @@ class Image extends Base {
         }
         var points = board.getGridPoints(undefined, undefined, true);
         ShiftToO(points);
-        const manager = new TextureManager(scene);
+        const manager = new Phaser.Textures.TextureManager(scene);
         const texture = new Phaser.Textures.Texture(manager, 'imageChess', source, width, height);
         super(scene, worldX, worldY, texture, frame);
 
